@@ -36,9 +36,5 @@ python app.py
 docker build -t flask-app .
 # 2. Run the Container
 docker run -p 80:80 flask-app
-☁ AWS Deployment Notes
-Instance type: t2.micro 
-OS: Ubuntu
-Ports: 22 (SSH), 80 (HTTP)
-Access URL: http://<your-ec2-ip>
+
 
